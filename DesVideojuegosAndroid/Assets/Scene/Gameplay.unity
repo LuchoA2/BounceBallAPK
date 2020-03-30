@@ -567,7 +567,7 @@ MonoBehaviour:
   DeadSound: {fileID: 8300000, guid: 9189cfee21568ae4089c13efd6510b40, type: 3}
   winSound: {fileID: 8300000, guid: 7f5bb7cd67cc847da9884f8b90c035a8, type: 3}
   velocidad: 0.55
-  altitud: 42
+  altitud: 65
   isJump: 0
   lifesText: {fileID: 668571942}
   starsText: {fileID: 1775595296}
