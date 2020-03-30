@@ -134,10 +134,12 @@ public class PlayerController : MonoBehaviour
         finalStarsText.text = "0" + stars.ToString();
     }
     public void Jump(){
+        if(!isJump){
          Vector3 salto = new Vector3(0,altitud,0);
         rb.AddForce(salto * velocidad);
         isJump = true;
         GetComponent<AudioSource>().clip = jumpSound;
         GetComponent<AudioSource>().Play();
+        }
     }
 }
